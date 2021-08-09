@@ -9,7 +9,7 @@ Before creating the Lambda Function using the script, be sure that you have:
 - S3 bucket with a folder to put files
 
 ## Steps
-### Create a IAM service role:
+### Create a IAM service role
 Let’s start with creating a IAM service-linked for Lambda.
 - Open the IAM console
 - Choose Roles. Then choose Create role.
@@ -31,7 +31,7 @@ Let’s start with creating a IAM service-linked for Lambda.
 - In the Function code section, paste code in the Python Script. Be sure to replace REGION and CRAWLER with the name of your AWS Glue Crawler.
 - Hit Deploy
 
-### Add S3 trigger:
+### Add S3 trigger
 - Click the Add Trigger
 - Choose S3
 - Type in Bucket Name, for example our bucket is: (glue-demo-ascending)
@@ -43,6 +43,6 @@ Let’s start with creating a IAM service-linked for Lambda.
 Coming Soon!
 
 ## References
-Start Glue job crawler completes lambda
+Start Glue job crawler completes lambda: 
 https://aws.amazon.com/premiumsupport/knowledge-center/start-glue-job-crawler-completes-lambda/
 
