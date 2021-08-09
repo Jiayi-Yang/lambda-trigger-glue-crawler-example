@@ -31,7 +31,7 @@ Let’s start with creating a IAM service-linked for Lambda.
 - In the Function code section, paste code in the Python Script. Be sure to replace REGION and CRAWLER with the name of your AWS Glue Crawler.
 - Hit Deploy
 
-### How to add S3 trigger:
+### Add S3 trigger:
 - Click the Add Trigger
 - Choose S3
 - Type in Bucket Name, for example our bucket is: (glue-demo-ascending)
