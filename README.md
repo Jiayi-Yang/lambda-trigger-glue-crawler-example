@@ -41,3 +41,8 @@ Let’s start with creating a IAM service-linked for Lambda.
 
 ## Demo Video
 Coming Soon!
+
+## References
+Start Glue job crawler completes lambda
+https://aws.amazon.com/premiumsupport/knowledge-center/start-glue-job-crawler-completes-lambda/
+
