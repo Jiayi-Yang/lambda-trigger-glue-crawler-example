@@ -22,10 +22,10 @@ Let’s start with creating a IAM service-linked for Lambda.
 - Open AWS Lambda
 - Choose Create function.
 - Be sure that Author from scratch is selected, and then configure the following options:
--- For Name, enter a name for your function.
--- For Runtime, choose one of the Python options.
--- For Role, choose Choose an existing role.
--- For Existing role, select the IAM role that we just created.
+  - For Name, enter a name for your function.
+  - For Runtime, choose one of the Python options.
+  - For Role, choose Choose an existing role.
+  - For Existing role, select the IAM role that we just created.
 - Choose Create function.
 - Create function with existing IAM role
 - In the Function code section, paste code in the Python Script. Be sure to replace REGION and CRAWLER with the name of your AWS Glue Crawler.
