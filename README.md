@@ -43,6 +43,13 @@ Let’s start with creating a IAM service-linked for Lambda.
 Coming Soon!
 
 ## References
-Start Glue job crawler completes lambda: 
+Create service linked role: 
+https://docs.aws.amazon.com/IAM/latest/UserGuide/using-service-linked-roles.html#create-service-linked-role-iam-console
+
+Start Glue job crawler lambda: 
 https://aws.amazon.com/premiumsupport/knowledge-center/start-glue-job-crawler-completes-lambda/
+
+Boto 3: 
+https://github.com/boto/boto3/issues/1606#issuecomment-401423567
+
 
